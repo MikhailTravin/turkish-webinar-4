@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ru">
+@@include('html/_head.htm',{
+"title":"Главная"
+})
+
+<body>
+	<div class="wrapper">
+		@@include('html/_header.htm',{})
+		<main class="page">
+			<section class="page__main-home main-home">
+				<img src="../img/main-home.png" alt="" class="main-home__bg">
+				<img src="../img/main-image.png" alt="" class="main-home__image">
+				<div class="main-home__container">
+					<div class="main-home__content">
+						<div class="main-home__top">
+							<div class="main-home__title">Открытый вебинар:</div>
+							<div class="main-home__subtitle">Простой турецкий:
+								<span>потуши страх</span> общения!
+							</div>
+						</div>
+						<div class="main-home__center">
+							<div class="main-home__data">Дата и время:</div>
+							<div class="main-home__data-text"><span>21 февраля</span> 20:00 мск</div>
+						</div>
+						<div data-da=".block__container, 991.98, first" class="main-home__bottom">
+							<div class="main-home__block">
+								<div class="main-home__item">
+									Сразу после регистрации
+									вы получите полезный подарок!
+									<br>
+									<span>Гайд "Турецкий: инструкция
+										по применению"</span>
+								</div>
+							</div>
+							<a href="#" data-popup="#forms" class="main-home__button">Записаться бесплатно</a>
+						</div>
+						<div data-da=".main-home__container, 991.98" class="main-home__anchor">
+							<span>Ведущий:</span>
+							<br>
+							Гёктюрк Чалышкан
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="page__block block">
+				<div class="block__container">
+					<div class="block__body">
+						<div class="block__subtitle">Вот о чем вы узнаете:</div>
+						<div class="block__content">
+							<div class="block__column">
+								<div class="block__item">
+									<div class="block__image">
+										<img src="../img/icons/fragment-image.svg" alt="">
+									</div>
+									<div class="block__text">
+										<span>узнаете, как рассказать о себе на турецком простым языком и удивить всех
+											вокруг</span>
+									</div>
+								</div>
+							</div>
+							<div class="block__column">
+								<div class="block__item">
+									<div class="block__image">
+										<img src="../img/icons/fragment-image.svg" alt="">
+									</div>
+									<div class="block__text">
+										<span>освоите 3 грамматические конструкции для свободного общения на личные
+											темы</span>
+									</div>
+								</div>
+							</div>
+							<div class="block__column">
+								<div class="block__item">
+									<div class="block__image">
+										<img src="../img/icons/fragment-image.svg" alt="">
+									</div>
+									<div class="block__text">
+										<span>познакомитесь с системой изучения турецкого, которая поможет вам общаться
+											легко и уверенно.</span>
+									</div>
+								</div>
+							</div>
+							<div class="block__column">
+								<div class="block__item">
+									<div class="block__image">
+										<img src="../img/icons/fragment-image.svg" alt="">
+									</div>
+									<div class="block__text">
+										<span>научитесь без стеснения отвечать на любопытные вопросы от носителей в ваш
+											адрес</span>
+									</div>
+								</div>
+							</div>
+							<div class="block__column">
+								<div class="block__item">
+									<div class="block__image">
+										<img src="../img/icons/fragment-image.svg" alt="">
+									</div>
+									<div class="block__text">
+										<span>узнаете секреты, как убрать страх общения на турецком</span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<a href="#" class="block__button button">Хочу на вебинар</a>
+					</div>
+				</div>
+			</section>
+		</main>
+		@@include('html/_footer.htm',{})
+	</div>
+	@@include('html/_popup.htm',{})
+	@@include('html/_js.htm',{})
+</body>
+
+</html>
